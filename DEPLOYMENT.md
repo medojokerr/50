@@ -84,7 +84,7 @@ NEXT_PUBLIC_SITE_URL = https://your-domain.vercel.app
 # تأكد من صحة الكود
 npm run type-check
 
-# تأكد من تث��يت الباكجات
+# تأكد من تثبيت الباكجات
 npm install
 
 # جرب البناء محلياً
