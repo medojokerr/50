@@ -944,7 +944,7 @@ export default function LandingPage() {
                     {t.professionalVoiceover}
                   </li>
                 </ul>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد طلب باقة 30 ثانية - مميزة (500 جنيه)" : "I want to order the 30 seconds Premium package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد طلب باق�� 30 ثانية - مميزة (500 جنيه)" : "I want to order the 30 seconds Premium package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-white text-orangeCTA hover:bg-gray-100 rounded-lg py-3 font-bold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg">
                     <Phone className="w-4 h-4" />
                     {t.orderNow}
@@ -1091,7 +1091,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "2. نصنع الفيديو" : "2. We Create The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
+                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل الم��ايير" : "Our team works on creating your video with the latest AI technology and best standards"}
               </p>
             </div>
 
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإ��شاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "🎬 فيدي�� احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
