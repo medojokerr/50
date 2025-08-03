@@ -1112,7 +1112,7 @@ export default function LandingPage() {
           <div className="text-center mt-16">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg inline-block">
               <h3 className="text-2xl font-extrabold text-white mb-2">
-                {locale === "ar" ? "✨ هذ�� كل شيء!" : "✨ That's It!"}
+                {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
                 {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
