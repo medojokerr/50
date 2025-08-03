@@ -75,7 +75,7 @@ export default function LandingPage() {
               </div>
               <p className="text-xl md:text-2xl text-white/80 mb-6 max-w-3xl mx-auto leading-relaxed">
                 {locale === "ar"
-                  ? "احصل على فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
+                  ? "احصل ع��ى فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
                   : "Get a professional advertising video designed specifically for your business - high quality and fast delivery"
                 }
               </p>
@@ -163,7 +163,7 @@ export default function LandingPage() {
               </h2>
               <p className="text-xl text-navy/70 max-w-3xl mx-auto">
                 {locale === "ar"
-                  ? "نركز على شيء واحد فقط: تسليمك فيديو إعلاني مثالي جاهز للنشر فوراً"
+                  ? "نركز على شيء ��احد فقط: تسليمك فيديو إعلاني مثالي جاهز للنشر فوراً"
                   : "We focus on one thing only: delivering you a perfect advertising video ready to publish immediately"
                 }
               </p>
@@ -290,7 +290,7 @@ export default function LandingPage() {
                   30s
                 </div>
                 <div className="absolute bottom-3 left-3 bg-black/50 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-full">
-                  {locale === "ar" ? "جو��ة 4K" : "4K Quality"}
+                  {locale === "ar" ? "جودة 4K" : "4K Quality"}
                 </div>
               </div>
 
@@ -428,11 +428,11 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إع��ان بشخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إع��ان ��شخصيات ناطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "فيديو بشخصيات ذكية ناطقة وتفاعلية متطورة" : "Video with intelligent speaking and interactive characters"}
+                  {locale === "ar" ? "فيديو بشخصيات ذكية ناطقة و��فاعلية متطورة" : "Video with intelligent speaking and interactive characters"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
@@ -842,7 +842,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "جودة عالية HD بتقنيات حديثة" : "High quality HD with modern techniques"}
+                    {locale === "ar" ? "ج��دة عالية HD بتقنيات حديثة" : "High quality HD with modern techniques"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
