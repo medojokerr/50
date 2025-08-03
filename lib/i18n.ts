@@ -96,7 +96,7 @@ export const translations = {
     price300EGP: "300 جنيه",
     price500EGP: "500 جنيه",
     price500EGPPremium: "500 جنيه",
-    price700EGP: "700 جنيه",
+    price700EGP: "700 ج��يه",
     professionalVoiceover: "تعليق صوتي احترافي",
     premiumSupport: "دعم فني متميز",
     oneRevision: "تعديل مرة واحدة",
@@ -116,7 +116,7 @@ export const translations = {
     whyReason1: "سرعة البرق",
     whyReason1Desc: "الف��ديوهات تُسلم في 24-48 ساعة، وليس أسا��يع",
     whyReason2: "أفضل من المتوقع",
-    whyReason2Desc: "نتجاوز توقعاتك دائماً في الجودة",
+    whyReason2Desc: "نتجاوز توقع��تك دائماً في الجودة",
     whyReason3: "بدون تعقيد",
     whyReason3Desc: "دفعة واحدة، فيديو واحد، جاهز للاستخدام",
     whyReason4: "نتائج مؤكدة",
@@ -133,7 +133,7 @@ export const translations = {
     freeRevision: "تعديل مجاني مشمول",
     instantDelivery: "تسليم سريع خلال 24 ساعة متاح",
     exclusiveBonus: "🎁 هدية: موسيقى خلفية مجانية",
-    socialProof: "انضم لأكثر من 500 عميل سعيد",
+    socialProof: "انضم لأك��ر من 500 عميل سعيد",
     riskFree: "تجربة بدون مخاطر - ادفع فقط عند الرضا",
     emergencyContact: "تحتاج فيديو عاجل؟ اتصل الآن!",
     lastChance: "لا تفوت الفرصة - اطلب اليوم!",
@@ -152,8 +152,8 @@ export const translations = {
     paymentMethodsTitle: "طرق الدفع",
     vodafoneCash: "فودافون كاش",
     usdtTrc20: "USDT TRC20",
-    whatsappNumber: "01062453344",
-    usdtAddress: process.env.NEXT_PUBLIC_USDT_ADDRESS || "YOUR_USDT_TRC20_ADDRESS_HERE", // Placeholder
+    whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "01062453344",
+    usdtAddress: process.env.NEXT_PUBLIC_USDT_ADDRESS || "YOUR_USDT_TRC20_ADDRESS_HERE",
     footerText: "© 2023 فيديوفاي. جميع الحقوق محفوظة.",
     language: "اللغة",
     english: "العربية",
