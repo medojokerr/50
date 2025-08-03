@@ -136,7 +136,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-skyBlue mb-2">24/7</div>
-                <p className="text-white/70">{locale === "ar" ? "دعم مت��اصل" : "Support Available"}</p>
+                <p className="text-white/70">{locale === "ar" ? "دعم مت��اص��" : "Support Available"}</p>
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-orangeCTA mb-2">48h</div>
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "⚠️ آخر ��حذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
