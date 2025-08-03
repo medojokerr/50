@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2024-12-19
+
+### 🚀 Deployment Ready
+- Fixed TypeScript error in language-switcher component
+- Added complete deployment configuration for Vercel
+- Created pre-deployment check script
+- Added comprehensive deployment documentation
+- Fixed environment variables configuration
+- Optimized Next.js config for production builds
+
+### 🛠️ Infrastructure
+- Added proper TypeScript types and interfaces
+- Created deployment guide (DEPLOYMENT.md)
+- Added pre-deploy validation script
+- Simplified Vercel configuration
+- Updated package.json with essential dev dependencies
+
+### 🔧 Bug Fixes
+- Fixed missing 'arabic' property in i18n translations
+- Resolved build errors for production deployment
+- Fixed NODE_ENV configuration issues
+- Ensured all translation keys are properly defined
+
 ## [2.0.0] - 2024-12-19
 
 ### ✨ Added
@@ -21,7 +44,7 @@ All notable changes to this project will be documented in this file.
 - Cleaned up excessive emojis in text content
 - Improved code formatting and readability
 
-### ���� Improved
+### 🚀 Improved
 - Better Next.js configuration for production builds
 - Enhanced TypeScript configuration
 - Optimized image handling and formats
