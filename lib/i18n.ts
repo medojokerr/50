@@ -72,8 +72,8 @@ export const translations = {
     paymentMethodsTitle: "Payment Methods",
     vodafoneCash: "Vodafone Cash",
     usdtTrc20: "USDT TRC20",
-    whatsappNumber: "01062453344",
-    usdtAddress: process.env.NEXT_PUBLIC_USDT_ADDRESS || "YOUR_USDT_TRC20_ADDRESS_HERE", // Placeholder
+    whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "01062453344",
+    usdtAddress: process.env.NEXT_PUBLIC_USDT_ADDRESS || "YOUR_USDT_TRC20_ADDRESS_HERE",
     footerText: "© 2023 Videofy. All rights reserved.",
     language: "Language",
     english: "English",
