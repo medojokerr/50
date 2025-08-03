@@ -229,7 +229,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-center text-white/80 relative z-10">
                   <p className="text-lg leading-relaxed">
-                    {locale === "ar" ? "فيديو جاهز للنشر على أي منصة فوراً بدون أي تعديل إضافي" : "Video ready to publish on any platform immediately without any additional editing"}
+                    {locale === "ar" ? "فيديو جاه�� للنشر على أي منصة فوراً بدون أي تعديل إضافي" : "Video ready to publish on any platform immediately without any additional editing"}
                   </p>
                 </CardContent>
               </Card>
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� ��ريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🔥 أريد الاستفادة من عرض الجمعة البيضاء المحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "��️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
@@ -1207,7 +1207,7 @@ export default function LandingPage() {
               </div>
               <p className="text-white/70 leading-relaxed">
                 {locale === "ar"
-                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء الاصطناعي الرائدة في المنطقة"
+                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء ال��صطناعي الرائدة في المنطقة"
                   : "The leading AI-powered advertising video creation platform in the region"
                 }
               </p>
