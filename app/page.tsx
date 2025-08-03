@@ -838,7 +838,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قص��ر واضح ومؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "��️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
