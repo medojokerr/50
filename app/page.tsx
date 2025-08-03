@@ -75,7 +75,7 @@ export default function LandingPage() {
               </div>
               <p className="text-xl md:text-2xl text-white/80 mb-6 max-w-3xl mx-auto leading-relaxed">
                 {locale === "ar"
-                  ? "احصل ع��ى فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
+                  ? "احصل على فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
                   : "Get a professional advertising video designed specifically for your business - high quality and fast delivery"
                 }
               </p>
@@ -163,7 +163,7 @@ export default function LandingPage() {
               </h2>
               <p className="text-xl text-navy/70 max-w-3xl mx-auto">
                 {locale === "ar"
-                  ? "نركز على شيء ��احد فقط: تسليمك فيديو إعلاني مثالي جاهز للنشر فوراً"
+                  ? "نركز على شيء واحد فقط: تسليمك فيديو إعلاني مثالي جاهز للنشر فوراً"
                   : "We focus on one thing only: delivering you a perfect advertising video ready to publish immediately"
                 }
               </p>
@@ -311,7 +311,7 @@ export default function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4 text-skyBlue" />
-                    {locale === "ar" ? "تسليم س����يع" : "Fast Delivery"}
+                    {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
                 <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
@@ -428,11 +428,11 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إع��ان ��شخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إع��ان بشخصيات ناطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "فيديو بشخصيات ذكية ناطقة و��فاعلية متطورة" : "Video with intelligent speaking and interactive characters"}
+                  {locale === "ar" ? "فيديو بشخصيات ذكية ناطقة وتفاعلية متطورة" : "Video with intelligent speaking and interactive characters"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🔥 أريد الاستفادة من ع��ض الجمعة البيضاء المحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🔥 أريد الاستفادة من ع��ض الجمعة البيض��ء المحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -842,7 +842,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "ج��دة عالية HD بتقنيات حديثة" : "High quality HD with modern techniques"}
+                    {locale === "ar" ? "جودة عالية HD بتقنيات حديثة" : "High quality HD with modern techniques"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
