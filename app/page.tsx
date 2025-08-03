@@ -136,7 +136,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-skyBlue mb-2">24/7</div>
-                <p className="text-white/70">{locale === "ar" ? "دعم مت��اص��" : "Support Available"}</p>
+                <p className="text-white/70">{locale === "ar" ? "دعم متواصل" : "Support Available"}</p>
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-orangeCTA mb-2">48h</div>
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� أريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� ��ريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
