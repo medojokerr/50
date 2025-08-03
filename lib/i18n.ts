@@ -118,7 +118,7 @@ export const translations = {
     whyReason2: "أفضل من المتوقع",
     whyReason2Desc: "نتجاوز توقع��تك دائماً في الجودة",
     whyReason3: "بدون تعقيد",
-    whyReason3Desc: "دفعة واحدة، فيديو واحد، جاهز للاستخدام",
+    whyReason3Desc: "دفعة واحدة، ��يديو واحد، جاهز للاستخدام",
     whyReason4: "نتائج مؤكدة",
     whyReason4Desc: "أكثر من 500 فيديو ناجح تم تسليمه",
     testimonialTitle: "ماذا يقول عملاؤنا",
@@ -156,7 +156,8 @@ export const translations = {
     usdtAddress: process.env.NEXT_PUBLIC_USDT_ADDRESS || "YOUR_USDT_TRC20_ADDRESS_HERE",
     footerText: "© 2023 فيديوفاي. جميع الحقوق محفوظة.",
     language: "اللغة",
-    english: "العربية",
+    english: "English",
+    arabic: "العربية",
   },
 }
 
