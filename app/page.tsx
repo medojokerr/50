@@ -887,7 +887,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "جودة عالية مع تأثيرات ب��رية متق��مة" : "High quality with advanced visual effects"}
+                    {locale === "ar" ? "جودة عالية مع تأثيرات بصرية متقدمة" : "High quality with advanced visual effects"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
