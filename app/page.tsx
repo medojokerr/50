@@ -428,7 +428,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إعلان بشخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إع��ان بشخصيات ناطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
@@ -887,7 +887,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "جودة عالية مع تأثيرات بصرية متقد����ة" : "High quality with advanced visual effects"}
+                    {locale === "ar" ? "جودة عالية مع تأثيرات بصرية متقدمة" : "High quality with advanced visual effects"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينته�� في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
