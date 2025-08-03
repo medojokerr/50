@@ -883,7 +883,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني أطول مع تفاصيل أكثر" : "Longer advertising video with more details"}
+                    {locale === "ar" ? "فيديو إعل��ني أطول مع تفاصيل أكثر" : "Longer advertising video with more details"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -904,7 +904,7 @@ export default function LandingPage() {
                     </span>
                   </li>
                 </ul>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد طلب باقة 60 ثانية - قياسية (500 جنيه)" : "I want to order the 60 seconds Standard package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أري�� طلب باقة 60 ثانية - قياسية (500 جنيه)" : "I want to order the 60 seconds Standard package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-lg py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-2">
                     <Phone className="w-4 h-4" />
                     {t.orderNow}
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد���� من العرض الح�������ي المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! أريد الاستفادة من العرض الحصري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
@@ -1207,7 +1207,7 @@ export default function LandingPage() {
               </div>
               <p className="text-white/70 leading-relaxed">
                 {locale === "ar"
-                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء ال��صطناعي الرائدة في المنطقة"
+                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء ��ل��صطناعي الرائدة في المنطقة"
                   : "The leading AI-powered advertising video creation platform in the region"
                 }
               </p>
