@@ -1,142 +1,197 @@
-# Videofy Landing Page
+# Videofy - AI Video Ads Landing Page
 
-This is a responsive, bilingual (Arabic/English) landing page for "Videofy", a service that creates AI-powered advertising videos. It's built with Next.js, React, TypeScript, and styled using Tailwind CSS with shadcn/ui components, ensuring a modern, performant, and maintainable codebase.
+A modern, high-performance, and bilingual (Arabic/English) landing page for "Videofy" - an AI-powered video creation service. Built with Next.js 15, React 19, TypeScript, and Tailwind CSS.
 
-## Features
+## ✨ Features
 
-*   **Bilingual Support**: Seamlessly switch between Arabic and English content.
-*   **Responsive Design**: Optimized for mobile devices and scales gracefully on larger screens.
-*   **AI-Powered Service Focus**: Clearly highlights the benefits and capabilities of AI in video creation.
-*   **Clear Call-to-Action (CTA)**: Directs users to WhatsApp for immediate inquiries.
-*   **Service Features Section**: Showcases key advantages like speed, quality, low cost, and social media compatibility.
-*   **Transparent Pricing**: Presents two distinct package options with clear pricing.
-*   **"Why AI?" Section**: Provides a concise explanation of the value proposition of AI-driven video creation.
-*   **Frequently Asked Questions (FAQ)**: Addresses common user queries using an interactive accordion component.
-*   **Payment Methods**: Clearly lists accepted payment options.
-*   **Lightweight & Static**: Designed as a purely static page, requiring no backend, database, or user authentication, making it fast and easy to deploy.
+- **🌐 Bilingual Support**: Seamless Arabic/English switching with RTL support
+- **📱 Fully Responsive**: Mobile-first design that scales beautifully
+- **🚀 High Performance**: Optimized for Core Web Vitals and fast loading
+- **🎨 Modern UI**: Beautiful animations and gradient effects
+- **♿ Accessible**: WCAG compliant with semantic HTML
+- **🔍 SEO Optimized**: Complete meta tags, sitemap, and robots.txt
+- **💻 Developer Friendly**: TypeScript, ESLint, Prettier configured
+- **🎯 Conversion Focused**: Clear CTAs and social proof elements
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-*   **Framework**: [Next.js](https://nextjs.org/) (App Router)
-*   **Language**: [TypeScript](https://www.typescriptlang.org/)
-*   **UI Library**: [React](https://react.dev/)
-*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **Components**: [shadcn/ui](https://ui.shadcn.com/)
-*   **Icons**: [Lucide React](https://lucide.dev/icons/)
-*   **Internationalization**: Custom context-based solution for simple language switching.
-*   **Fonts**: Google Fonts (Inter for English, Cairo & Noto Sans Arabic for Arabic)
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript 5](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 3.4](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: Google Fonts (Inter, Cairo, Noto Sans Arabic)
 
-## Project Structure
+## 🚀 Quick Start
 
-The project is organized into a clear and logical structure to enhance maintainability, scalability, and developer experience:
+1. **Clone and Install**
+   ```bash
+   git clone <repository-url>
+   cd videofy-landing
+   npm install
+   ```
 
-\`\`\`
-.
-├── app/
-│   ├── layout.tsx           # Root layout for the entire application
-│   ├── page.tsx             # Main landing page content
-│   └── globals.css          # Global CSS styles (Tailwind base, components, utilities, custom fonts)
+2. **Environment Setup**
+   ```bash
+   cp .env.example .env.local
+   # Edit .env.local with your values
+   ```
+
+3. **Development**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## 📁 Project Structure
+
+```
+videofy-landing/
+├── app/                    # Next.js App Router
+│   ├── globals.css        # Global styles and animations
+│   ├── layout.tsx         # Root layout with metadata
+│   ├── page.tsx          # Main landing page
+│   ├── sitemap.ts        # Auto-generated sitemap
+│   └── robots.ts         # SEO robots configuration
 ├── components/
-│   ├── videofy-logo.tsx     # Component for the Videofy logo
-│   ├── language-switcher.tsx# Dropdown component for language selection
-│   └── ui/                  # Shadcn/ui components (e.g., button, card, accordion, dropdown-menu)
+│   ├── sections/         # Page section components
+│   ├── ui/              # shadcn/ui components
+│   ├── language-switcher.tsx
+│   └── videofy-logo.tsx
 ├── lib/
-│   ├── i18n.ts              # Contains all translated text content (English & Arabic)
-│   └── language-context.tsx # React Context for managing global language state
-├── public/
-│   ├── videofy-logo.png     # Videofy logo image
-│   └── favicon.ico          # Website favicon
-├── next.config.mjs          # Next.js configuration file
-├── tailwind.config.ts       # Tailwind CSS configuration (custom colors, theme extensions)
-├── package.json             # Project metadata, scripts, and dependencies
-├── tsconfig.json            # TypeScript configuration
-└── README.md                # Project documentation (this file)
-\`\`\`
+│   ├── i18n.ts          # Internationalization
+│   ├── language-context.tsx
+│   └── utils.ts
+├── public/              # Static assets
+├── .env.example        # Environment variables template
+├── .eslintrc.json      # ESLint configuration
+├── .prettierrc         # Prettier configuration
+├── .gitignore          # Git ignore rules
+├── next.config.mjs     # Next.js configuration
+├── tailwind.config.ts  # Tailwind configuration
+└── package.json        # Dependencies and scripts
+```
 
-### Directory Breakdown:
+## 🌍 Environment Variables
 
-*   **`app/`**: This directory leverages Next.js's App Router for routing and rendering.
-    *   `layout.tsx`: Defines the shared UI for all routes. It sets up the HTML structure, imports necessary fonts (Inter for English, Cairo and Noto Sans Arabic for Arabic), and wraps the application with the `LanguageProvider` to enable global language state management.
-    *   `page.tsx`: Contains the core content of the landing page. It's a client component that uses the `useLanguage` hook to dynamically render text based on the selected locale, ensuring a seamless bilingual experience. All sections (Hero, Features, Packages, Why AI, FAQ, Payment Methods) are defined here.
-    *   `globals.css`: This file imports Tailwind CSS base styles, components, and utilities. It also defines custom CSS variables for colors and font families, ensuring consistent styling across the application.
-*   **`components/`**: This directory houses reusable React components that are specific to this application.
-    *   `videofy-logo.tsx`: A simple, presentational component responsible for rendering the Videofy logo image and its name.
-    *   `language-switcher.tsx`: An interactive dropdown component that allows users to toggle between English and Arabic. It utilizes `shadcn/ui`'s `DropdownMenu` and interacts with the `LanguageContext` to update the application's language.
-    *   `ui/`: This sub-directory contains UI components generated by `shadcn/ui`. These components (e.g., `Button`, `Card`, `Accordion`, `DropdownMenu`) are pre-built, accessible, and styled with Tailwind CSS, providing a consistent and high-quality user interface.
-*   **`lib/`**: This directory is for utility functions, helper modules, and configuration files that are not directly React components.
-    *   `i18n.ts`: A crucial file for internationalization. It stores all the translated text content for the entire landing page in both English (`en`) and Arabic (`ar`). It exports a `translations` object and a `getTranslation` function, making it easy to retrieve localized strings.
-    *   `language-context.tsx`: Implements a React Context and Provider pattern to manage the global language state (`locale`). This allows any component within the application to access the current language and trigger language changes, and it also dynamically sets the `dir` attribute on the `<html>` element for proper Right-to-Left (RTL) or Left-to-Right (LTR) text direction.
-*   **`public/`**: This directory is for static assets that are served directly by Next.js.
-    *   `videofy-logo.png`: The image file for the Videofy logo, used in the `VideofyLogo` component.
-    *   `favicon.ico`: The small icon displayed in the browser tab or bookmarks.
-*   **`next.config.mjs`**: The Next.js configuration file. It's set up to handle image optimization for external URLs (like `blob.v0.dev` for the logo) and ignores ESLint/TypeScript errors during build for quicker development iterations.
-*   **`tailwind.config.ts`**: The configuration file for Tailwind CSS. It extends the default Tailwind theme with custom colors (e.g., `navy`, `orangeCTA`, `skyBlue`) as specified in the project requirements, ensuring brand consistency.
-*   **`package.json`**: Defines the project's metadata (name, version), scripts for development and build processes (`dev`, `build`, `start`, `lint`), and lists all required npm dependencies (e.g., `next`, `react`, `tailwindcss`, `lucide-react`, `shadcn/ui` related packages).
-*   **`tsconfig.json`**: The TypeScript configuration file. It ensures proper type checking, compilation settings, and path aliases (`@/*`) for the project, contributing to code quality and maintainability.
+Create a `.env.local` file in the root directory:
 
-## Getting Started
+```env
+# WhatsApp Business Number
+NEXT_PUBLIC_WHATSAPP_NUMBER=01062453344
 
-Follow these steps to set up and run the project locally:
+# USDT TRC20 Wallet Address
+NEXT_PUBLIC_USDT_ADDRESS=YOUR_USDT_TRC20_ADDRESS_HERE
 
-### 1. Clone the repository (if applicable)
+# Website URL for SEO
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
 
-If you received this project as a downloaded archive, extract its contents to your desired directory.
+## 📜 Available Scripts
 
-### 2. Install Dependencies
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run lint:fix     # Fix ESLint errors
+npm run type-check   # TypeScript type checking
+npm run format       # Format code with Prettier
+npm run format:check # Check code formatting
+npm run preview      # Build and preview locally
+```
 
-Navigate to the project's root directory in your terminal and install all the necessary Node.js packages:
+## 🎨 Customization
 
-\`\`\`bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-\`\`\`
+### Colors
+Edit `tailwind.config.ts` to customize the color scheme:
+```typescript
+colors: {
+  navy: "#1E2A38",
+  skyBlue: "#00AEEF", 
+  orangeCTA: "#FF6B00",
+  // Add your brand colors
+}
+```
 
-### 3. Run the Development Server
+### Content
+All text content is centralized in `lib/i18n.ts` for easy management:
+```typescript
+export const translations = {
+  en: { /* English content */ },
+  ar: { /* Arabic content */ }
+}
+```
 
-Start the Next.js development server. This will compile the project and make it accessible locally:
+### Sections
+The main page components are modular - add, remove, or reorder sections in `app/page.tsx`.
 
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-\`\`\`
+## 🔧 Performance Optimizations
 
-### 4. Open in Browser
+- **Image Optimization**: WebP/AVIF formats with responsive sizing
+- **Code Splitting**: Automatic chunks for optimal loading
+- **Font Optimization**: Preloaded Google Fonts with display: swap
+- **CSS Optimization**: Purged unused styles in production
+- **Bundle Analysis**: Use `npm run analyze` to inspect bundle size
 
-Once the development server is running, open your web browser and navigate to:
+## 📱 Browser Support
 
-[http://localhost:3000](http://localhost:3000)
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
 
-You should now see the Videofy landing page.
+## 🚀 Deployment
 
-## Development Guidelines
+### Vercel (Recommended)
+1. Push code to GitHub/GitLab
+2. Connect repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically on push
 
-To ensure smooth future development and maintain code quality:
+### Other Platforms
+- **Netlify**: Works out of the box
+- **Cloudflare Pages**: Full compatibility
+- **AWS Amplify**: Supports SSG/SSR
 
-*   **Styling**: Always use Tailwind CSS classes for styling. For complex UI elements, prefer using or extending `shadcn/ui` components. Define custom colors and themes in `tailwind.config.ts`.
-*   **Internationalization**: All user-facing text should be managed through `lib/i18n.ts`. When adding new text, ensure it's provided in both English and Arabic. Use the `useLanguage` hook to access translated strings in your components.
-*   **Component Reusability**: Break down complex sections into smaller, focused, and reusable React components. Place them in the `components/` directory.
-*   **Type Safety**: Leverage TypeScript for all new code. Define clear interfaces and types to ensure data consistency and reduce runtime errors.
-*   **Environment Variables**: For any sensitive information or configurable values (e.g., API keys, external service URLs) that might be added in future features, use Next.js's environment variables. Create a `.env.local` file (which is git-ignored) and access variables using `process.env.YOUR_VARIABLE_NAME`. Remember to prefix client-side variables with `NEXT_PUBLIC_`.
-*   **Accessibility**: Always consider accessibility (a11y) when developing. Use semantic HTML, provide `alt` text for images, and ensure keyboard navigation and screen reader compatibility.
+## 🔍 SEO Features
 
-## Customization
+- ✅ Optimized meta tags and Open Graph
+- ✅ Automatic sitemap generation
+- ✅ Robots.txt configuration
+- ✅ Structured data markup
+- ✅ Performance optimization
+- ✅ Mobile-friendly design
+- ✅ Core Web Vitals optimization
 
-*   **Content**: All textual content can be easily modified in `lib/i18n.ts`.
-*   **WhatsApp Number**: Update the `whatsappNumber` in `lib/i18n.ts` with your actual WhatsApp contact number.
-*   **USDT TRC20 Address**: Replace the `TRC20_WALLET_ADDRESS_HERE` placeholder in `lib/i18n.ts` with your actual USDT TRC20 wallet address.
-*   **Colors**: Adjust the custom color definitions in `tailwind.config.ts` to match any future branding changes.
-*   **Sections**: Add, remove, or reorder sections in `app/page.tsx` as needed.
+## 🛡️ Security
 
-## Deployment
+- Environment variables for sensitive data
+- No client-side secrets exposure
+- Content Security Policy ready
+- XSS protection enabled
 
-This project is built with Next.js and is highly optimized for deployment on [Vercel](https://vercel.com/), the creators of Next.js. You can deploy it directly from your Git repository (GitHub, GitLab, Bitbucket) with zero configuration.
+## 🤝 Contributing
 
-## Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run `npm run lint` and `npm run type-check`
+5. Submit a pull request
 
-Contributions are welcome! If you have suggestions for improvements or new features, please feel free to open an issue or submit a pull request.
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Support
+
+For support and questions, contact us via WhatsApp at the number configured in your environment variables.
+
+---
+
+**Made with ❤️ using Next.js and AI Technology**
