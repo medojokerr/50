@@ -859,7 +859,7 @@ export default function LandingPage() {
                   <Button className="w-full bg-gradient-to-r from-skyBlue to-blue-500 hover:from-blue-500 hover:to-skyBlue text-white rounded-lg py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-2 relative overflow-hidden group">
                     <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <Rocket className="w-4 h-4 relative z-10" />
-                    <span className="relative z-10">{locale === "ar" ? "ابد�� النجاح!" : "Start Success!"}</span>
+                    <span className="relative z-10">{locale === "ar" ? "ابدأ النجاح!" : "Start Success!"}</span>
                   </Button>
                 </Link>
               </CardContent>
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "���� فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "���� فيديو احترافي ��اهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
