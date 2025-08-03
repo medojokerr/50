@@ -815,7 +815,7 @@ export default function LandingPage() {
               </span>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-              {locale === "ar" ? "اختر الباقة التي تناسب اح��ياجاتك واحصل على فيديوهات احترافية بجودة سينمائية" : "Choose the package that suits your needs and get professional videos with cinematic quality"}
+              {locale === "ar" ? "اختر الباقة التي تناسب احتياجاتك واحصل على فيديوهات احترافية بجودة سينمائية" : "Choose the package that suits your needs and get professional videos with cinematic quality"}
             </p>
             <div className="mt-8 w-24 h-1 bg-gradient-to-r from-skyBlue to-orangeCTA mx-auto rounded-full"></div>
           </div>
