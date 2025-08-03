@@ -12,7 +12,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "analyze": "cross-env ANALYZE=true next build",
-    "preview": "next build && next start"
+    "preview": "next build && next start",
+    "pre-deploy": "node scripts/pre-deploy.js",
+    "deploy": "npm run pre-deploy && vercel --prod"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
