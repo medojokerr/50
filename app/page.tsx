@@ -469,7 +469,7 @@ export default function LandingPage() {
                   <CardTitle className="text-xl font-semibold">{t.feature3D}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-muted-foreground">
-                  {locale === "ar" ? "تأثيرات ثلاثية الأبعاد مذهلة ��جذب الانتباه" : "Stunning 3D effects to capture attention"}
+                  {locale === "ar" ? "تأثيرات ثلاثية الأبعاد مذهلة لجذب الانتباه" : "Stunning 3D effects to capture attention"}
                 </CardContent>
               </Card>
 
@@ -887,7 +887,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "جودة عالية مع تأثيرات بصرية متقدمة" : "High quality with advanced visual effects"}
+                    {locale === "ar" ? "جودة عالية مع ��أثيرات بصرية متقدمة" : "High quality with advanced visual effects"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! أريد الاستفادة من العرض الحصري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! أريد الاستفادة من العرض الح��ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
@@ -1234,7 +1234,7 @@ export default function LandingPage() {
             {/* Contact Info */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold mb-6 text-orangeCTA">
-                {locale === "ar" ? "تواصل معنا" : "Contact Us"}
+                {locale === "ar" ? "تواصل ��عنا" : "Contact Us"}
               </h3>
               <div className="space-y-4">
                 <Link href={`https://wa.me/${t.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 text-white/70 hover:text-orangeCTA transition-colors duration-300 group">
