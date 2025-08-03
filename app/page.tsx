@@ -367,7 +367,7 @@ export default function LandingPage() {
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركا�� مع دعم فني متميز" : "Advertising video for business services with premium support"}
+                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركات مع دعم فني متميز" : "Advertising video for business services with premium support"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "������� ��ريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� ��ريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -1075,7 +1075,7 @@ export default function LandingPage() {
                 <MessageCircle className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                {locale === "ar" ? "1. أرسل ��تطلباتك" : "1. Send Your Requirements"}
+                {locale === "ar" ? "1. أرسل متطلباتك" : "1. Send Your Requirements"}
               </h3>
               <p className="text-white/80 leading-relaxed">
                 {locale === "ar" ? "اتصل بنا عبر الواتساب وأخبرنا عن المنتج أو الخدمة التي تريد الإعلان عنها" : "Contact us via WhatsApp and tell us about the product or service you want to advertise"}
@@ -1112,7 +1112,7 @@ export default function LandingPage() {
           <div className="text-center mt-16">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg inline-block">
               <h3 className="text-2xl font-extrabold text-white mb-2">
-                {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
+                {locale === "ar" ? "✨ ه��ا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
                 {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيد��وك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنش�� في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
