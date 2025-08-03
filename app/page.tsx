@@ -86,7 +86,7 @@ export default function LandingPage() {
                 </span>
                 <span className="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  {locale === "ar" ? "تسليم 24 س��عة" : "24h Delivery"}
+                  {locale === "ar" ? "تسليم 24 ساعة" : "24h Delivery"}
                 </span>
                 <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Trophy className="w-4 h-4" />
@@ -372,7 +372,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
                     <Shield className="w-4 h-4 text-green-400" />
-                    {locale === "ar" ? "موثوق" : "Trusted"}
+                    {locale === "ar" ? "��وثوق" : "Trusted"}
                   </span>
                   <span className="flex items-center gap-1">
                     <Award className="w-4 h-4 text-yellow-400" />
@@ -428,7 +428,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إعلان بشخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إعل��ن بشخصيات ناطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
@@ -624,7 +624,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-4xl md:text-5xl font-bold text-green-400 mb-2 animate-pulse">99%</div>
-                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء راضون" : "Satisfied Clients"}</p>
+                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء را��ون" : "Satisfied Clients"}</p>
               </div>
             </div>
           </div>
@@ -1115,7 +1115,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
-                {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
+                {locale === "ar" ? "لا توجد تعقيدات أو م��طلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
               </p>
             </div>
           </div>
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإ��شاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
