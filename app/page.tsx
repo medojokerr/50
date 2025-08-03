@@ -724,7 +724,7 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "مرحباً! أريد طلب فيديو إعل��ني احترافي" : "Hello! I want to order a professional advertising video")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "مرحباً! أريد طلب فيديو إعلاني احترافي" : "Hello! I want to order a professional advertising video")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="group bg-white text-orangeCTA hover:bg-gray-100 text-xl px-12 py-6 rounded-full shadow-2xl transition-all duration-500 transform hover:scale-110 flex items-center gap-4 font-bold relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-orangeCTA/10 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                   <Phone className="w-7 h-7 transform group-hover:rotate-12 transition-transform duration-300" />
@@ -1140,7 +1140,7 @@ export default function LandingPage() {
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
-              {locale === "ar" ? "انضم لأكثر من 500 عميل راضي عن خدماتنا!" : "Join 500+ satisfied customers!"}
+              {locale === "ar" ? "انضم لأكثر من 500 ع��يل راضي عن خدماتنا!" : "Join 500+ satisfied customers!"}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
