@@ -624,7 +624,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-4xl md:text-5xl font-bold text-green-400 mb-2 animate-pulse">99%</div>
-                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء ر��ضون" : "Satisfied Clients"}</p>
+                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء راضون" : "Satisfied Clients"}</p>
               </div>
             </div>
           </div>
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� أريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "������� أريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -956,7 +956,7 @@ export default function LandingPage() {
             {/* Package 4 - 60 seconds Premium */}
             <Card className="bg-gradient-to-br from-navy via-blue-800 to-blue-900 text-white border-2 border-skyBlue shadow-2xl hover:shadow-skyBlue/25 transition-all duration-300 transform hover:scale-105 relative group">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-skyBlue to-blue-400 text-white text-sm px-4 py-2 rounded-full font-bold shadow-lg">
-                {locale === "ar" ? "⭐ الأ��ضل" : "⭐ Best"}
+                {locale === "ar" ? "⭐ الأفضل" : "⭐ Best"}
               </div>
               <CardHeader className="text-center pb-6 pt-8">
                 <div className="w-16 h-16 bg-gradient-to-br from-skyBlue to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -1104,7 +1104,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "3. نسلم الفيديو" : "3. We Deliver The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "تستلم فيديوك النهائي جاهز للنشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
+                {locale === "ar" ? "تستلم فيديوك النهائي جاهز ل��نشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
               </p>
             </div>
           </div>
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "���️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
@@ -1207,7 +1207,7 @@ export default function LandingPage() {
               </div>
               <p className="text-white/70 leading-relaxed">
                 {locale === "ar"
-                  ? "منصة إنشاء الفيديوهات الإعلانية بالذك��ء الاصطناعي الرائدة في المنطقة"
+                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء الاصطناعي الرائدة في المنطقة"
                   : "The leading AI-powered advertising video creation platform in the region"
                 }
               </p>
