@@ -112,7 +112,7 @@ export default function LandingPage() {
                 <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة أمثلة من أعمالكم" : "I want to see examples of your work")}`} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="group border-2 border-skyBlue text-skyBlue hover:bg-skyBlue hover:text-white text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center gap-3 font-semibold bg-transparent">
                     <Play className="w-6 h-6 transform group-hover:scale-110 transition-transform duration-300" />
-                    {locale === "ar" ? "شاهد أعمالنا ��" : "View Our Work 🎬"}
+                    {locale === "ar" ? "شاهد أعمالنا ����" : "View Our Work 🎬"}
                   </Button>
                 </Link>
               </div>
@@ -197,7 +197,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-center text-white/80 relative z-10">
                   <p className="text-lg leading-relaxed">
-                    {locale === "ar" ? "فيديو نهائي بجو��ة احترافية أفضل من توقعاتك" : "Final video with professional quality better than your expectations"}
+                    {locale === "ar" ? "فيديو نهائي بجودة احترافية أفضل من توقعاتك" : "Final video with professional quality better than your expectations"}
                   </p>
                 </CardContent>
               </Card>
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "��️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "���️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
