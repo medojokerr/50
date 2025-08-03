@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Image optimization
   images: {
     remotePatterns: [
       {
@@ -15,7 +10,21 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    unoptimized: true,
+    formats: ['image/webp', 'image/avif'],
+  },
+
+  // Build optimization
+  poweredByHeader: false,
+
+  // Vercel deployment settings
+  trailingSlash: false,
+
+  // Temporarily ignore build errors for deployment
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 

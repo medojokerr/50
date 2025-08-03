@@ -9,9 +9,31 @@ const cairo = Cairo({ subsets: ["arabic"], variable: "--font-cairo" })
 const notoSansArabic = Noto_Sans_Arabic({ subsets: ["arabic"], variable: "--font-noto-sans-arabic" })
 
 export const metadata: Metadata = {
-  title: "Videofy - AI Video Ads",
-  description: "Create stunning advertising videos in minutes using AI.",
-    generator: 'v0.dev'
+  title: "Videofy - AI Video Ads | Professional Video Creation",
+  description: "Create stunning advertising videos in minutes using AI. Professional quality, fast delivery, and affordable pricing. Get your business noticed with engaging video content.",
+  keywords: "AI video creation, advertising videos, video marketing, AI-powered videos, professional videos, video ads, digital marketing",
+  authors: [{ name: "Videofy Team" }],
+  creator: "Videofy",
+  publisher: "Videofy",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "ar_EG",
+    alternateLocale: ["en_US"],
+    title: "Videofy - AI Video Ads",
+    description: "Create stunning advertising videos in minutes using AI",
+    siteName: "Videofy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Videofy - AI Video Ads",
+    description: "Create stunning advertising videos in minutes using AI",
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#1E2A38" },
+    { media: "(prefers-color-scheme: dark)", color: "#1E2A38" },
+  ],
 }
 
 export default function RootLayout({
