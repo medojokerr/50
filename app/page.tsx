@@ -834,7 +834,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قص��ر واضح ومؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
-              {locale === "ar\" ? \"انضم لأكثر من 500 عميل راضي عن خدماتنا!\" : \"Join 500+ satisfied customers!\""}
+              {locale === "ar" ? "انضم لأكثر من 500 عميل راضي عن خدماتنا!" : "Join 500+ satisfied customers!"}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
