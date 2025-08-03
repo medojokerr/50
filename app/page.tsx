@@ -1216,7 +1216,7 @@ export default function LandingPage() {
             {/* Quick Links */}
             <div className="text-center">
               <h3 className="text-xl font-bold mb-6 text-skyBlue">
-                {locale === "ar" ? "روابط سري��ة" : "Quick Links"}
+                {locale === "ar" ? "روابط سريعة" : "Quick Links"}
               </h3>
               <div className="space-y-3">
                 <a href="#features" className="block text-white/70 hover:text-skyBlue transition-colors duration-300 cursor-pointer">
