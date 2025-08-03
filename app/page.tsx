@@ -367,7 +367,7 @@ export default function LandingPage() {
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "ف��ديو إعلاني لخدمات الشركات مع دعم فني متميز" : "Advertising video for business services with premium support"}
+                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركات مع دعم فني متميز" : "Advertising video for business services with premium support"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
@@ -420,7 +420,7 @@ export default function LandingPage() {
                   ⭐ Premium
                 </div>
                 <div className="absolute bottom-3 left-3 bg-black/50 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-full">
-                  {locale === "ar" ? "شخصيات ��اطقة" : "AI Characters"}
+                  {locale === "ar" ? "شخصيات ناطقة" : "AI Characters"}
                 </div>
               </div>
 
@@ -481,7 +481,7 @@ export default function LandingPage() {
                   <CardTitle className="text-xl font-semibold">{t.featureVoice}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-white/80">
-                  {locale === "ar" ? "أصوات طب��عية بالذكاء الاصطناعي" : "Natural AI-generated voices"}
+                  {locale === "ar" ? "أصوات طبيعية بالذكاء الاصطناعي" : "Natural AI-generated voices"}
                 </CardContent>
               </Card>
 
@@ -891,7 +891,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "دعم فني متميز أثناء العمل" : "Premium technical support during work"}
+                    {locale === "ar" ? "دع�� فني متميز أثناء العمل" : "Premium technical support during work"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1216,7 +1216,7 @@ export default function LandingPage() {
             {/* Quick Links */}
             <div className="text-center">
               <h3 className="text-xl font-bold mb-6 text-skyBlue">
-                {locale === "ar" ? "روابط سريعة" : "Quick Links"}
+                {locale === "ar" ? "روابط سري��ة" : "Quick Links"}
               </h3>
               <div className="space-y-3">
                 <a href="#features" className="block text-white/70 hover:text-skyBlue transition-colors duration-300 cursor-pointer">
