@@ -163,7 +163,7 @@ export default function LandingPage() {
               </h2>
               <p className="text-xl text-navy/70 max-w-3xl mx-auto">
                 {locale === "ar"
-                  ? "نركز على شيء واحد فقط: تسليم�� فيديو إعلاني مثالي جاهز للنشر فوراً"
+                  ? "نركز على شيء واحد فقط: تسليمك فيديو إعلاني مثالي جاهز للنشر فوراً"
                   : "We focus on one thing only: delivering you a perfect advertising video ready to publish immediately"
                 }
               </p>
@@ -891,7 +891,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "دعم فني متميز أثناء العمل" : "Premium technical support during work"}
+                    {locale === "ar" ? "دعم فني م��ميز أثناء العمل" : "Premium technical support during work"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
