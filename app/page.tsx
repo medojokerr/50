@@ -229,7 +229,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-center text-white/80 relative z-10">
                   <p className="text-lg leading-relaxed">
-                    {locale === "ar" ? "فيديو جاهز للنشر على أي منصة فوراً بدون أي تعديل إضافي" : "Video ready to publish on any platform immediately without any additional editing"}
+                    {locale === "ar" ? "فيديو جاهز للنشر على أي م��صة فوراً بدون أي تعديل إضافي" : "Video ready to publish on any platform immediately without any additional editing"}
                   </p>
                 </CardContent>
               </Card>
@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "��ريد م��اهد�� مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -444,7 +444,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "ذكي" : "Smart"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال الشخصيات الناطقة" : "I want to see the speaking characters example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال الشخصيات الناط��ة" : "I want to see the speaking characters example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-pink-500/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -887,7 +887,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "جودة عالية مع تأثيرات بصرية متق��مة" : "High quality with advanced visual effects"}
+                    {locale === "ar" ? "جودة عالية مع تأثيرات ب��رية متق��مة" : "High quality with advanced visual effects"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
