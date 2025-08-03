@@ -1104,7 +1104,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "3. نسلم الفيديو" : "3. We Deliver The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "تستلم فيديوك النهائي جاهز للنشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
+                {locale === "ar" ? "تستلم ��يديوك النهائي جاهز للنشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
               </p>
             </div>
           </div>
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحتراف��؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
@@ -1165,7 +1165,7 @@ export default function LandingPage() {
       <div className="fixed bottom-6 right-6 z-50">
         <div className="relative">
           <div className="absolute -top-16 -left-20 bg-red-500 text-white px-3 py-2 rounded-lg text-sm font-bold whitespace-nowrap animate-bounce">
-            {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
+            {locale === "ar" ? "🔥 عرض محدود!" : "��� Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
           <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! أريد الاستفادة من العرض الحصري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
