@@ -136,7 +136,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-skyBlue mb-2">24/7</div>
-                <p className="text-white/70">{locale === "ar" ? "دعم م��واصل" : "Support Available"}</p>
+                <p className="text-white/70">{locale === "ar" ? "دعم متواصل" : "Support Available"}</p>
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-orangeCTA mb-2">48h</div>
@@ -838,7 +838,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني قصير واضح ��مؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1091,7 +1091,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "2. نصنع الفيديو" : "2. We Create The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "فريقنا يعمل على إنشاء ��يديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
+                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
               </p>
             </div>
 
