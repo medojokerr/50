@@ -290,7 +290,7 @@ export default function LandingPage() {
                   30s
                 </div>
                 <div className="absolute bottom-3 left-3 bg-black/50 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-full">
-                  {locale === "ar" ? "جودة 4K" : "4K Quality"}
+                  {locale === "ar" ? "جو��ة 4K" : "4K Quality"}
                 </div>
               </div>
 
@@ -311,10 +311,10 @@ export default function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4 text-skyBlue" />
-                    {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
+                    {locale === "ar" ? "تسليم س��يع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة ��ثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -367,7 +367,7 @@ export default function LandingPage() {
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركات مع دعم فني متميز" : "Advertising video for business services with premium support"}
+                  {locale === "ar" ? "فيديو إعلاني لخدمات الشر��ات مع دعم فني متميز" : "Advertising video for business services with premium support"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
