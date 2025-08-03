@@ -42,7 +42,8 @@ export const translations = {
     whyReason4: "Proven Results",
     whyReason4Desc: "500+ successful videos delivered",
     testimonialTitle: "What Our Clients Say",
-    testimonial1: "Excellent video quality and delivered exactly as promised. Very professional service.",
+    testimonial1:
+      "Excellent video quality and delivered exactly as promised. Very professional service.",
     testimonial2: "Fast delivery and the video was exactly what I requested. Highly recommended!",
     testimonial3: "Great quality video for my business. Professional work and good communication.",
     ctaTitle: "Ready to Get Your Professional Video?",
@@ -64,9 +65,11 @@ export const translations = {
       "AI allows you to create professional advertising videos at lightning speed and at a much lower cost than traditional methods, while maintaining high quality and full content customization.",
     faqTitle: "Frequently Asked Questions",
     faqQ1: "How do I order the video design service?",
-    faqA1: "You can order the service by clicking the 'Order Now' button and contacting us via WhatsApp.",
+    faqA1:
+      "You can order the service by clicking the 'Order Now' button and contacting us via WhatsApp.",
     faqQ2: "What's the difference between packages?",
-    faqA2: "All packages deliver complete, ready-to-use videos. Basic packages include high-quality videos with professional voiceover. Premium packages add AI characters. We deliver the final video - nothing more needed.",
+    faqA2:
+      "All packages deliver complete, ready-to-use videos. Basic packages include high-quality videos with professional voiceover. Premium packages add AI characters. We deliver the final video - nothing more needed.",
     faqQ3: "What is the video delivery time?",
     faqA3: "Videos are typically delivered within 24-48 business hours.",
     paymentMethodsTitle: "Payment Methods",
@@ -146,7 +149,8 @@ export const translations = {
     faqQ1: "كيف أطلب خدمة تصميم الفيديو؟",
     faqA1: "يمكنك طلب الخدمة بالضغط على زر 'اطلب الآن' والتواصل معنا عبر الواتساب.",
     faqQ2: "ما الفرق بين الباقات؟",
-    faqA2: "جميع الباقات تسلم فيديو كامل جاهز للاستخدام. الباقات الأساسية تشمل فيديوهات عالية الجودة مع تعليق صوتي احترافي. الباقات المميزة تضيف شخصيات ناطقة. نحن نسلم الفيديو النهائي - لا تحتاج لأي شيء إضافي.",
+    faqA2:
+      "جميع الباقات تسلم فيديو كامل جاهز للاستخدام. الباقات الأساسية تشمل فيديوهات عالية الجودة مع تعليق صوتي احترافي. الباقات المميزة تضيف شخصيات ناطقة. نحن نسلم الفيديو النهائي - لا تحتاج لأي شيء إضافي.",
     faqQ3: "ما هي مدة تسليم الفيديو؟",
     faqA3: "يتم تسليم الفيديو عادةً خلال 24-48 ساعة عمل.",
     paymentMethodsTitle: "طرق الدفع",
