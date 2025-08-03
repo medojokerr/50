@@ -311,7 +311,7 @@ export default function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4 text-skyBlue" />
-                    {locale === "ar" ? "تسليم س��يع" : "Fast Delivery"}
+                    {locale === "ar" ? "تسليم س����يع" : "Fast Delivery"}
                   </span>
                 </div>
                 <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
@@ -481,7 +481,7 @@ export default function LandingPage() {
                   <CardTitle className="text-xl font-semibold">{t.featureVoice}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-white/80">
-                  {locale === "ar" ? "أصوات طبيعية بالذكاء الاصطناعي" : "Natural AI-generated voices"}
+                  {locale === "ar" ? "أصوات طب��عية بالذكاء الاصطناعي" : "Natural AI-generated voices"}
                 </CardContent>
               </Card>
 
@@ -1115,7 +1115,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
-                {locale === "ar" ? "لا توجد تعقيدات أو متطل��ات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
+                {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
               </p>
             </div>
           </div>
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد�� من العرض الح��ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد�� من العرض الح����ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
@@ -1259,7 +1259,7 @@ export default function LandingPage() {
             </p>
             <p className="text-white/40 text-xs">
               {locale === "ar"
-                ? "صُنع بـ ❤️ باستخدام الذكاء الاصطناعي"
+                ? "صُنع بـ ��️ باستخدام الذكاء الاصطناعي"
                 : "Made with ❤️ using AI Technology"
               }
             </p>
