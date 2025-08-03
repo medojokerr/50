@@ -784,7 +784,7 @@ export default function LandingPage() {
                   {locale === "ar" ? "توفر أكثر من 650 جنيه!" : "SAVE OVER $160!"}
                 </div>
                 <div className="text-lg font-semibold">
-                  {locale === "ar" ? "احصل على كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
+                  {locale === "ar" ? "احصل ع��ى كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
                 </div>
               </div>
 
@@ -1115,7 +1115,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
-                {locale === "ar" ? "لا توجد تعقيدات أو مت��لبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
+                {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
               </p>
             </div>
           </div>
@@ -1234,7 +1234,7 @@ export default function LandingPage() {
             {/* Contact Info */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold mb-6 text-orangeCTA">
-                {locale === "ar" ? "تواصل معنا" : "Contact Us"}
+                {locale === "ar" ? "��واصل معنا" : "Contact Us"}
               </h3>
               <div className="space-y-4">
                 <Link href={`https://wa.me/${t.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 text-white/70 hover:text-orangeCTA transition-colors duration-300 group">
