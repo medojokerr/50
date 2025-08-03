@@ -420,7 +420,7 @@ export default function LandingPage() {
                   ⭐ Premium
                 </div>
                 <div className="absolute bottom-3 left-3 bg-black/50 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-full">
-                  {locale === "ar" ? "شخصيات ��اطقة" : "AI Characters"}
+                  {locale === "ar" ? "شخصيات ناطقة" : "AI Characters"}
                 </div>
               </div>
 
@@ -624,7 +624,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-4xl md:text-5xl font-bold text-green-400 mb-2 animate-pulse">99%</div>
-                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء راضون" : "Satisfied Clients"}</p>
+                <p className="text-white/70 text-lg">{locale === "ar" ? "عملاء ر��ضون" : "Satisfied Clients"}</p>
               </div>
             </div>
           </div>
@@ -1115,7 +1115,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
-                {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
+                {locale === "ar" ? "لا توجد تعقيدات أو مت��لبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
               </p>
             </div>
           </div>
@@ -1136,11 +1136,11 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإن��اء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
-              {locale === "ar" ? "انضم لأكثر من 500 عميل راضي عن خدماتنا!" : "Join 500+ satisfied customers!"}
+              {locale === "ar" ? "��نضم لأكثر من 500 عميل راضي عن خدماتنا!" : "Join 500+ satisfied customers!"}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
