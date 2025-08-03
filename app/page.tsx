@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منت�� تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -956,7 +956,7 @@ export default function LandingPage() {
             {/* Package 4 - 60 seconds Premium */}
             <Card className="bg-gradient-to-br from-navy via-blue-800 to-blue-900 text-white border-2 border-skyBlue shadow-2xl hover:shadow-skyBlue/25 transition-all duration-300 transform hover:scale-105 relative group">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-skyBlue to-blue-400 text-white text-sm px-4 py-2 rounded-full font-bold shadow-lg">
-                {locale === "ar" ? "⭐ الأفضل" : "⭐ Best"}
+                {locale === "ar" ? "⭐ الأ��ضل" : "⭐ Best"}
               </div>
               <CardHeader className="text-center pb-6 pt-8">
                 <div className="w-16 h-16 bg-gradient-to-br from-skyBlue to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "���️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
@@ -1207,7 +1207,7 @@ export default function LandingPage() {
               </div>
               <p className="text-white/70 leading-relaxed">
                 {locale === "ar"
-                  ? "منصة إنشاء الفيديوهات الإعلانية بالذكاء الاصطناعي الرائدة في المنطقة"
+                  ? "منصة إنشاء الفيديوهات الإعلانية بالذك��ء الاصطناعي الرائدة في المنطقة"
                   : "The leading AI-powered advertising video creation platform in the region"
                 }
               </p>
