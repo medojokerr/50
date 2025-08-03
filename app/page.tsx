@@ -1075,7 +1075,7 @@ export default function LandingPage() {
                 <MessageCircle className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                {locale === "ar" ? "1. أرسل متطلباتك" : "1. Send Your Requirements"}
+                {locale === "ar" ? "1. ��رسل متطلباتك" : "1. Send Your Requirements"}
               </h3>
               <p className="text-white/80 leading-relaxed">
                 {locale === "ar" ? "اتصل بنا عبر الواتساب وأخبرنا عن المنتج أو الخدمة التي تريد الإعلان عنها" : "Contact us via WhatsApp and tell us about the product or service you want to advertise"}
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "���️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينتهي في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
