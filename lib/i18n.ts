@@ -102,7 +102,7 @@ export const translations = {
     oneRevision: "تعديل مرة واحدة",
     speakingCharacters: "شخصيات ناطقة",
     portfolioTitle: "مكتبة أعمالنا",
-    portfolioSubtitle: "شاهد أمثلة من ف��ديوهاتنا المُنشأة بالذ��اء الاصطناعي",
+    portfolioSubtitle: "شاهد أمثلة من فيديوهاتنا المُنشأة بالذكاء الاصطناعي",
     viewOnWhatsApp: "شاهد على الواتساب",
     newFeaturesTitle: "ما ستحصل عليه - فيديو فقط",
     feature3D: "رسوم متحركة ثلاثية الأبعاد",
