@@ -86,7 +86,7 @@ export default function LandingPage() {
                 </span>
                 <span className="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  {locale === "ar" ? "تسليم 24 ساعة" : "24h Delivery"}
+                  {locale === "ar" ? "تسليم 24 س��عة" : "24h Delivery"}
                 </span>
                 <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Trophy className="w-4 h-4" />
@@ -311,10 +311,10 @@ export default function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4 text-skyBlue" />
-                    {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
+                    {locale === "ar" ? "تسليم سري��" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثا�� إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -367,7 +367,7 @@ export default function LandingPage() {
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
-                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركات مع دعم فني متميز" : "Advertising video for business services with premium support"}
+                  {locale === "ar" ? "فيديو إعلاني لخدمات الشركا�� مع دعم فني متميز" : "Advertising video for business services with premium support"}
                 </p>
                 <div className="flex items-center gap-4 mb-6 text-sm text-white/60">
                   <span className="flex items-center gap-1">
@@ -784,7 +784,7 @@ export default function LandingPage() {
                   {locale === "ar" ? "توفر أكثر من 650 جنيه!" : "SAVE OVER $160!"}
                 </div>
                 <div className="text-lg font-semibold">
-                  {locale === "ar" ? "احصل على كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
+                  {locale === "ar" ? "احصل على ��ل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
                 </div>
               </div>
 
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد���� من العرض الح�����ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد���� من العرض الح�������ي المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
@@ -1234,7 +1234,7 @@ export default function LandingPage() {
             {/* Contact Info */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold mb-6 text-orangeCTA">
-                {locale === "ar" ? "تواصل معنا" : "Contact Us"}
+                {locale === "ar" ? "تواصل م��نا" : "Contact Us"}
               </h3>
               <div className="space-y-4">
                 <Link href={`https://wa.me/${t.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 text-white/70 hover:text-orangeCTA transition-colors duration-300 group">
@@ -1259,7 +1259,7 @@ export default function LandingPage() {
             </p>
             <p className="text-white/40 text-xs">
               {locale === "ar"
-                ? "صُنع بـ ❤️ باستخدام الذكاء الاصطناعي"
+                ? "صُنع بـ ❤�� باستخدام الذكاء الاصطناعي"
                 : "Made with ❤️ using AI Technology"
               }
             </p>
