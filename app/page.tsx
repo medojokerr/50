@@ -90,7 +90,7 @@ export default function LandingPage() {
                 </span>
                 <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Trophy className="w-4 h-4" />
-                  {locale === "ar" ? "جودة احترافية" : "Pro Quality"}
+                  {locale === "ar" ? "جودة احت��افية" : "Pro Quality"}
                 </span>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4 text-skyBlue" />
-                    {locale === "ar" ? "تسل��م سريع" : "Fast Delivery"}
+                    {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
                 <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
@@ -855,7 +855,7 @@ export default function LandingPage() {
                     </span>
                   </li>
                 </ul>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 أريد البدء بالباقة ال��ساسية (300 جنيه) + العروض المجانية!" : "🚀 I want to start with the Basic package (300 EGP) + FREE bonuses!")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 أريد البدء بالباقة الأساسية (300 جنيه) + العروض المجانية!" : "🚀 I want to start with the Basic package (300 EGP) + FREE bonuses!")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-skyBlue to-blue-500 hover:from-blue-500 hover:to-skyBlue text-white rounded-lg py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-2 relative overflow-hidden group">
                     <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <Rocket className="w-4 h-4 relative z-10" />
@@ -1075,7 +1075,7 @@ export default function LandingPage() {
                 <MessageCircle className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                {locale === "ar" ? "1. أرسل متطلباتك" : "1. Send Your Requirements"}
+                {locale === "ar" ? "1. ��رسل متطلباتك" : "1. Send Your Requirements"}
               </h3>
               <p className="text-white/80 leading-relaxed">
                 {locale === "ar" ? "اتصل بنا عبر الواتساب وأخبرنا عن المنتج أو الخدمة التي تريد الإعلان عنها" : "Contact us via WhatsApp and tell us about the product or service you want to advertise"}
@@ -1091,7 +1091,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "2. نصنع الفيديو" : "2. We Create The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأ��دث تقنيات الذكاء الاصطناعي ��أفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
+                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي ��أفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
               </p>
             </div>
 
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جا��ز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
