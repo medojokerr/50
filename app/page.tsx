@@ -136,7 +136,7 @@ export default function LandingPage() {
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-skyBlue mb-2">24/7</div>
-                <p className="text-white/70">{locale === "ar" ? "دعم متواصل" : "Support Available"}</p>
+                <p className="text-white/70">{locale === "ar" ? "دعم مت��اصل" : "Support Available"}</p>
               </div>
               <div className="transform hover:scale-105 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-bold text-orangeCTA mb-2">48h</div>
@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثا�� إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -838,7 +838,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إع��اني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
