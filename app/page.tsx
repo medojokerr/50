@@ -112,7 +112,7 @@ export default function LandingPage() {
                 <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة أمثلة من أعمالكم" : "I want to see examples of your work")}`} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="group border-2 border-skyBlue text-skyBlue hover:bg-skyBlue hover:text-white text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center gap-3 font-semibold bg-transparent">
                     <Play className="w-6 h-6 transform group-hover:scale-110 transition-transform duration-300" />
-                    {locale === "ar" ? "شاهد أعمالنا ����" : "View Our Work 🎬"}
+                    {locale === "ar" ? "شاهد أعمالنا 🎬" : "View Our Work 🎬"}
                   </Button>
                 </Link>
               </div>
@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "��ريد مشاهد�� مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "��ريد م��اهد�� مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "���� فيديو احترافي ��اهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "���� فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
