@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "���� فيد��و احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
