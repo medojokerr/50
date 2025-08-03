@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "��ريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -529,7 +529,7 @@ export default function LandingPage() {
                   <CardTitle className="text-xl font-semibold">{t.featureBranding}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-white/80">
-                  {locale === "ar" ? "دمج عل��متك التجارية بشكل احترافي" : "Professional brand integration"}
+                  {locale === "ar" ? "دمج علامتك التجارية بشكل احترافي" : "Professional brand integration"}
                 </CardContent>
               </Card>
             </div>
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحتراف��؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
