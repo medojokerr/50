@@ -428,7 +428,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إع��ان بشخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إعلان بشخصيات ناطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🔥 أريد الاستفادة من ع��ض الجمعة البيضاء المحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "���� أريد الاستفادة من ع��ض الجمعة البيضاء المحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيد��وك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
