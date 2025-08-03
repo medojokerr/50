@@ -784,7 +784,7 @@ export default function LandingPage() {
                   {locale === "ar" ? "توفر أكثر من 650 جنيه!" : "SAVE OVER $160!"}
                 </div>
                 <div className="text-lg font-semibold">
-                  {locale === "ar" ? "احصل على ��ل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
+                  {locale === "ar" ? "احصل على كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
                 </div>
               </div>
 
@@ -1112,7 +1112,7 @@ export default function LandingPage() {
           <div className="text-center mt-16">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg inline-block">
               <h3 className="text-2xl font-extrabold text-white mb-2">
-                {locale === "ar" ? "✨ ه��ا كل شيء!" : "✨ That's It!"}
+                {locale === "ar" ? "✨ هذا كل شيء!" : "✨ That's It!"}
               </h3>
               <p className="text-lg text-white/90">
                 {locale === "ar" ? "لا توجد تعقيدات أو متطلبات إضافية - فقط فيديو احترافي جاهز للاستخدام" : "No complications or additional requirements - just a professional video ready to use"}
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإنشاء فيد��وك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
@@ -1234,7 +1234,7 @@ export default function LandingPage() {
             {/* Contact Info */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold mb-6 text-orangeCTA">
-                {locale === "ar" ? "تواصل م��نا" : "Contact Us"}
+                {locale === "ar" ? "تواصل معنا" : "Contact Us"}
               </h3>
               <div className="space-y-4">
                 <Link href={`https://wa.me/${t.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 text-white/70 hover:text-orangeCTA transition-colors duration-300 group">
@@ -1259,7 +1259,7 @@ export default function LandingPage() {
             </p>
             <p className="text-white/40 text-xs">
               {locale === "ar"
-                ? "صُنع بـ ❤�� باستخدام الذكاء الاصطناعي"
+                ? "صُنع بـ ❤️ باستخدام الذكاء الاصطناعي"
                 : "Made with ❤️ using AI Technology"
               }
             </p>
