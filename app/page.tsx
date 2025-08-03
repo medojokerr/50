@@ -444,7 +444,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "ذكي" : "Smart"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال الشخصيات الناطقة" : "I want to see the speaking characters example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال الشخصيات ا��ناطقة" : "I want to see the speaking characters example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-pink-500/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -944,7 +944,7 @@ export default function LandingPage() {
                     {t.professionalVoiceover}
                   </li>
                 </ul>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد طلب باق�� 30 ثانية - مميزة (500 جنيه)" : "I want to order the 30 seconds Premium package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد طلب باقة 30 ثانية - مميزة (500 جنيه)" : "I want to order the 30 seconds Premium package (500 EGP)")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-white text-orangeCTA hover:bg-gray-100 rounded-lg py-3 font-bold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg">
                     <Phone className="w-4 h-4" />
                     {t.orderNow}
@@ -1132,7 +1132,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-yellow-400 text-black px-8 py-4 rounded-full inline-block font-extrabold text-xl mb-8 animate-bounce">
-              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينته�� في 6 ساعات!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
+              {locale === "ar" ? "⚠️ آخر تحذير: العرض ينته�� في 6 ساعا��!" : "⚠️ FINAL WARNING: Offer Ends in 6 Hours!"}
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! أريد الاستفادة من العرض الح��ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفادة من العرض الح��ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
