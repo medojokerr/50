@@ -6,7 +6,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import VideofyLogo from "@/components/videofy-logo"
 import LanguageSwitcher from "@/components/language-switcher"
 import { useLanguage } from "@/lib/language-context"
-import { CheckCircle, DollarSign, Zap, Share2, Play, Palette, Mic, Users, Music, Sparkles, Phone, ExternalLink, Star, Award, Clock, Shield, Heart, TrendingUp, Target, Camera, Video, Megaphone, ShoppingCart, Gift, Trophy, ThumbsUp, MessageCircle, Rocket, Crown, Smile } from "lucide-react"
+import {
+  CheckCircle, DollarSign, Zap, Share2, Play, Palette, Mic, Users, Music, Sparkles,
+  Phone, ExternalLink, Star, Award, Clock, Shield, Heart, TrendingUp, Target, Camera,
+  Video, Megaphone, ShoppingCart, Gift, Trophy, ThumbsUp, MessageCircle, Rocket, Crown, Smile
+} from "lucide-react"
 import Link from "next/link"
 
 export default function LandingPage() {
@@ -67,12 +71,12 @@ export default function LandingPage() {
 
             <div className="mb-6">
               <div className="inline-block bg-gradient-to-r from-orangeCTA to-orange-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
-                {locale === "ar" ? "⚡ عرض حصري: خصم 30%" : "⚡ EXCLUSIVE: 30% OFF TODAY"}
+                {locale === "ar" ? "عرض حصري: خصم 30%" : "EXCLUSIVE: 30% OFF TODAY"}
               </div>
               <p className="text-xl md:text-2xl text-white/80 mb-6 max-w-3xl mx-auto leading-relaxed">
                 {locale === "ar"
-                  ? "🎬 احصل على فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
-                  : "🎬 Get a professional advertising video designed specifically for your business - high quality and fast delivery"
+                  ? "احصل على فيديو إعلاني احترافي مصمم خصيصاً لعملك - جودة عالية وتسليم سريع"
+                  : "Get a professional advertising video designed specifically for your business - high quality and fast delivery"
                 }
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm">
@@ -177,7 +181,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-center text-white/80 relative z-10">
                   <p className="text-lg leading-relaxed">
-                    {locale === "ar" ? "فيديو جاهز للنشر يسلم إليك في أسرع وقت ممكن" : "Ready-to-publish video delivered to you in the fastest time possible"}
+                    {locale === "ar" ? "فيديو جاهز ل��نشر يسلم إليك في أسرع وقت ممكن" : "Ready-to-publish video delivered to you in the fastest time possible"}
                   </p>
                 </CardContent>
               </Card>
@@ -193,7 +197,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-center text-white/80 relative z-10">
                   <p className="text-lg leading-relaxed">
-                    {locale === "ar" ? "فيديو نهائي بجودة احترافية أفضل من توقعاتك" : "Final video with professional quality better than your expectations"}
+                    {locale === "ar" ? "فيديو نهائي بجو��ة احترافية أفضل من توقعاتك" : "Final video with professional quality better than your expectations"}
                   </p>
                 </CardContent>
               </Card>
@@ -834,7 +838,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني قص��ر واضح ومؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -842,7 +846,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "تعليق صوتي احترافي باللغة المطلوبة" : "Professional voiceover in required language"}
+                    {locale === "ar" ? "تعليق صوتي احترافي باللغة ال��طلوبة" : "Professional voiceover in required language"}
                   </li>
                   <li className="flex items-center justify-center">
                     <Music className="w-5 h-5 text-skyBlue mr-3" />
