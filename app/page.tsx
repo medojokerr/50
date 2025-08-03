@@ -838,7 +838,7 @@ export default function LandingPage() {
                 <ul className="list-none space-y-3 text-sm mb-6">
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    {locale === "ar" ? "فيديو إعلاني قصير واضح ومؤثر" : "Short, clear and impactful advertising video"}
+                    {locale === "ar" ? "فيديو إعلاني قصير واضح ��مؤثر" : "Short, clear and impactful advertising video"}
                   </li>
                   <li className="flex items-center justify-center">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
@@ -1091,7 +1091,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "2. نصنع الفيديو" : "2. We Create The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
+                {locale === "ar" ? "فريقنا يعمل على إنشاء ��يديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
               </p>
             </div>
 
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإ����اء فيديوك الاحترا��ي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
