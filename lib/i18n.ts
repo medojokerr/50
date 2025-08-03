@@ -102,7 +102,7 @@ export const translations = {
     oneRevision: "تعديل مرة واحدة",
     speakingCharacters: "شخصيات ناطقة",
     portfolioTitle: "مكتبة أعمالنا",
-    portfolioSubtitle: "شاهد أمثلة من فيديوهاتنا المُنشأة بالذكاء الاصطناعي",
+    portfolioSubtitle: "شاهد أمثلة من ف��ديوهاتنا المُنشأة بالذكاء الاصطناعي",
     viewOnWhatsApp: "شاهد على الواتساب",
     newFeaturesTitle: "ما ستحصل عليه - فيديو فقط",
     feature3D: "رسوم متحركة ثلاثية الأبعاد",
@@ -138,7 +138,7 @@ export const translations = {
     emergencyContact: "تحتاج فيديو عاجل؟ اتصل الآن!",
     lastChance: "لا تفوت الفرصة - اطلب اليوم!",
     competitorBeat: "نتغلب على أي سعر منافس",
-    viralPotential: "اص��ع فيديوهات تنتشر كالنار",
+    viralPotential: "اصنع فيديوهات تنتشر كالنار",
     whyAITitle: "لماذا الذكاء الاصطناعي؟",
     whyAIDescription:
       "الذكاء الاصطناعي يتيح لك إنشاء فيديوهات إعلانية احترافية بسرعة فائقة وبتكلفة أقل بكثير من الطرق التقليدية، مع الحفاظ على جودة عالية وتخصيص كامل لمحتواك.",
