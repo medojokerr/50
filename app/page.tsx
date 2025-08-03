@@ -90,7 +90,7 @@ export default function LandingPage() {
                 </span>
                 <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Trophy className="w-4 h-4" />
-                  {locale === "ar" ? "��ودة احترافية" : "Pro Quality"}
+                  {locale === "ar" ? "جودة احترافية" : "Pro Quality"}
                 </span>
               </div>
             </div>
@@ -784,7 +784,7 @@ export default function LandingPage() {
                   {locale === "ar" ? "توفر أكثر من 650 جنيه!" : "SAVE OVER $160!"}
                 </div>
                 <div className="text-lg font-semibold">
-                  {locale === "ar" ? "احصل ع��ى كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
+                  {locale === "ar" ? "احصل على كل هذا مجاناً مع أي باقة اليوم فقط!" : "Get ALL This FREE with Any Package Today Only!"}
                 </div>
               </div>
 
@@ -1234,7 +1234,7 @@ export default function LandingPage() {
             {/* Contact Info */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold mb-6 text-orangeCTA">
-                {locale === "ar" ? "��واصل معنا" : "Contact Us"}
+                {locale === "ar" ? "تواصل معنا" : "Contact Us"}
               </h3>
               <div className="space-y-4">
                 <Link href={`https://wa.me/${t.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center md:justify-start gap-3 text-white/70 hover:text-orangeCTA transition-colors duration-300 group">
