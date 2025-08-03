@@ -90,7 +90,7 @@ export default function LandingPage() {
                 </span>
                 <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full flex items-center gap-1">
                   <Trophy className="w-4 h-4" />
-                  {locale === "ar" ? "جودة احترافية" : "Pro Quality"}
+                  {locale === "ar" ? "��ودة احترافية" : "Pro Quality"}
                 </span>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function LandingPage() {
                     {locale === "ar" ? "تسليم سريع" : "Fast Delivery"}
                   </span>
                 </div>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منتج تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "أريد مشاهدة مثال إعلان منت�� تجاري" : "I want to see the product commercial example")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-orangeCTA to-orange-600 hover:from-orange-600 hover:to-orangeCTA text-white rounded-xl py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-3 transform hover:scale-105 shadow-lg hover:shadow-orangeCTA/25">
                     <Play className="w-5 h-5" />
                     {t.viewOnWhatsApp}
@@ -1075,7 +1075,7 @@ export default function LandingPage() {
                 <MessageCircle className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                {locale === "ar" ? "1. أرسل متطلب��تك" : "1. Send Your Requirements"}
+                {locale === "ar" ? "1. أرسل متطلباتك" : "1. Send Your Requirements"}
               </h3>
               <p className="text-white/80 leading-relaxed">
                 {locale === "ar" ? "اتصل بنا عبر الواتساب وأخبرنا عن المنتج أو الخدمة التي تريد الإعلان عنها" : "Contact us via WhatsApp and tell us about the product or service you want to advertise"}
@@ -1154,7 +1154,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-white/80 text-lg">
-              <p className="mb-2">{locale === "ar" ? "🎬 فيديو احترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
+              <p className="mb-2">{locale === "ar" ? "🎬 فيديو ��حترافي جاهز للنشر في 24-48 ساعة" : "🎬 Professional video ready to publish in 24-48 hours"}</p>
               <p className="font-semibold">{locale === "ar" ? "✨ جودة عالية وخدمة سريعة وموثوقة" : "✨ High quality, fast and reliable service"}</p>
             </div>
           </div>
