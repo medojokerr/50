@@ -428,7 +428,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 mb-3">
                   <Users className="w-5 h-5 text-pink-300" />
                   <h3 className="text-xl font-bold group-hover:text-pink-200 transition-colors duration-300">
-                    {locale === "ar" ? "إعلان بشخصيات ناطقة" : "Speaking Characters Ad"}
+                    {locale === "ar" ? "إعلان بشخصيات ��اطقة" : "Speaking Characters Ad"}
                   </h3>
                 </div>
                 <p className="text-white/70 mb-4 leading-relaxed">
@@ -788,7 +788,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "������� أريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
+              <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "����� أريد الاستفادة من ع��ض الجمعة البيضاء ��لمحدود!" : "🔥 I want to take advantage of the LIMITED Black Friday deal!")}`} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-red-600 hover:bg-gray-100 text-2xl px-16 py-8 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center gap-4 font-extrabold mx-auto animate-pulse">
                   <Crown className="w-8 h-8" />
                   {locale === "ar" ? "احجز العرض الآن!" : "CLAIM DEAL NOW!"}
@@ -855,7 +855,7 @@ export default function LandingPage() {
                     </span>
                   </li>
                 </ul>
-                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 أريد البدء بالباقة الأساسية (300 جنيه) + العروض المجانية!" : "🚀 I want to start with the Basic package (300 EGP) + FREE bonuses!")}`} target="_blank" rel="noopener noreferrer">
+                <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 أريد البدء بالباقة الأساسية (300 جنيه) + العروض المجانية!" : "��� I want to start with the Basic package (300 EGP) + FREE bonuses!")}`} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-gradient-to-r from-skyBlue to-blue-500 hover:from-blue-500 hover:to-skyBlue text-white rounded-lg py-3 font-semibold transition-all duration-300 flex items-center justify-center gap-2 relative overflow-hidden group">
                     <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <Rocket className="w-4 h-4 relative z-10" />
@@ -1091,7 +1091,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "2. نصنع الفيديو" : "2. We Create The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "فريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
+                {locale === "ar" ? "��ريقنا يعمل على إنشاء فيديوك بأحدث تقنيات الذكاء الاصطناعي وأفضل المعايير" : "Our team works on creating your video with the latest AI technology and best standards"}
               </p>
             </div>
 
@@ -1104,7 +1104,7 @@ export default function LandingPage() {
                 {locale === "ar" ? "3. نسلم الفيديو" : "3. We Deliver The Video"}
               </h3>
               <p className="text-white/80 leading-relaxed">
-                {locale === "ar" ? "تستلم فيديوك النهائي جاهز ل��نشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
+                {locale === "ar" ? "تستلم فيديوك النهائي جاهز للنشر خلال 24-48 ساعة حسب الباقة المختارة" : "You receive your final video ready to publish within 24-48 hours depending on the selected package"}
               </p>
             </div>
           </div>
@@ -1136,7 +1136,7 @@ export default function LandingPage() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
-              {locale === "ar" ? "جاهز لإن��اء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
+              {locale === "ar" ? "جاهز لإنشاء فيديوك الاحترافي؟" : "Ready to Create Your Professional Video?"}
             </h2>
 
             <p className="text-2xl text-white/90 mb-8">
@@ -1168,7 +1168,7 @@ export default function LandingPage() {
             {locale === "ar" ? "🔥 عرض محدود!" : "🔥 Limited Offer!"}
             <div className="absolute bottom-0 left-8 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-500"></div>
           </div>
-          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد���� من العرض الح�����ري المحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/${t.whatsappNumber}?text=${encodeURIComponent(locale === "ar" ? "🚀 مرحباً! ��ريد الاستفاد���� من العرض الح�����ري ��لمحدود!" : "🚀 Hello! I want to take advantage of the exclusive limited offer!")}`} target="_blank" rel="noopener noreferrer">
             <Button className="group w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center animate-pulse-glow relative">
               <Phone className="w-10 h-10 transform group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-xs font-bold animate-bounce">
@@ -1259,7 +1259,7 @@ export default function LandingPage() {
             </p>
             <p className="text-white/40 text-xs">
               {locale === "ar"
-                ? "صُنع بـ ❤️ باستخدام الذكاء الاصطناعي"
+                ? "صُنع بـ ❤️ ب��ستخدام الذكاء الاصطناعي"
                 : "Made with ❤️ using AI Technology"
               }
             </p>
